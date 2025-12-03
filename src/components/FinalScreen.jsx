@@ -12,18 +12,28 @@ export default function FinalScreen() {
   const [showOverlay, setShowOverlay] = useState(false)
   const messageRef = useRef(null)
 
-  const proposalMessage = `From the moment you came into my life, everything started to change.  
-You brought colors to my ordinary days, warmth to my silence, and a happiness I didn’t even know I was missing.  
+  const proposalMessage = `Mummam ❤️
 
-Every sunrise feels brighter because of you.  
-Every dream feels possible because you inspire me.  
-Every challenge feels easier because I imagine you by my side.  
+Since you came into my life, everything has changed in the most beautiful way.
+You filled my days with joy, my heart with warmth, and my world with love I never knew I needed.
 
-You are not just my friend, you’re the most special part of my life.  
-You make me smile, you make my heart race, and you make me want to be a better version of myself.  
+Every morning feels special because you are in my thoughts.
+Every moment feels brighter when I imagine you smiling.
+Every dream feels possible when I picture you beside me.
 
-I don’t know what the future holds, but I know one thing for sure.
-I want that future with you.`
+You are not just a person in my life…
+You are the most precious part of it.
+You make me smile without trying.
+You make my heart feel safe.
+And you inspire me to become a better version of myself every single day.
+
+I may not know what the future holds…
+But I know this for sure:
+I want my future to be with you — holding your hand, loving you, and calling you mine… forever. ❤️
+
+So today, with all my heart…
+Will you marry me, Mummam? 💍✨`
+
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {
